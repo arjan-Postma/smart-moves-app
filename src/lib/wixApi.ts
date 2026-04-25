@@ -1,9 +1,8 @@
 import { Platform } from 'react-native';
 
 // ── Wix site configuration ─────────────────────────────────────────────────────
-// TODO: replace these with the Smart Moves Wix site values
-const SITE_ID = 'YOUR_SMART_MOVES_SITE_ID';
-const CATEGORY_ID = 'YOUR_SMART_MOVES_PARENT_CATEGORY_ID'; // "Smart Moves" parent
+const SITE_ID = '27882056-1976-4b4a-8ea3-a2f80565bb53'; // Futures Academy (same site as TrendDeck)
+const CATEGORY_ID = '2b713ec6-14eb-4033-be75-2bcd41dec80b'; // "Smart Moves" parent category
 
 // On web: use same-origin proxy path (served by server.js). On native: call Wix directly.
 const API_URL =
