@@ -1,7 +1,7 @@
 {
   "name": "smart-moves-app",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "App.tsx",
   "scripts": {
     "start": "npm run build && node server.js",
     "dev": "expo start",
