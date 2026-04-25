@@ -1,0 +1,32 @@
+{
+  "name": "smart-moves-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "dev": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "proxy": "node proxy.js",
+    "build": "expo export --platform web && node patch-html.js",
+    "translate": "node scripts/translate-nl.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "better-sqlite3": "^11.10.0",
+    "expo": "~55.0.6",
+    "expo-sensors": "~55.0.9",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}

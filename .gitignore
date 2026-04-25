@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.expo/
+*.db
+publisher_data.json
+events_data.json
+.env
